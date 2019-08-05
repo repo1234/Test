@@ -1,0 +1,7 @@
+com/agrostar/pages/Hook.class
+com/agrostar/pages/ObjectReposiorty.class
+Parallel01IT.class
+com/agrostar/stepdefs/StepDefs.class
+com/agrostar/stepdefs/CucumberRunner.class
+com/agrostar/pages/UiMainPage.class
+com/agrostar/pages/MainPage.class
