@@ -56,7 +56,7 @@ public class MainPage {
 		List<List<String>> data = requestData.raw();
 		fullUrl = baseUrl + "user/starred/repo1234/"+repoName;
 		
-		response = given().queryParam("access_token", "deb89cfd480118cd7af89fc3412519903d0f481e").when().put(fullUrl);
+		response = given().queryParam("access_token", "").when().put(fullUrl);
          System.out.println("Verify resposne:"+ response);
 		//Utils.logTheRequestAndResponseDetails(response, log);
 		Utils.verifyStatusCode(response, Integer.parseInt(data.get(1).get(0)), response.getStatusCode());
